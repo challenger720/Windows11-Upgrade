@@ -1,6 +1,6 @@
 Upgrade a computer to Windows 11 with no auto reboot:
 1. Copy the Win11_24H2_English_x64.iso file and Win11Upgrade.ps1 to C:\Temp  
-2. Run the command to execute the Win11Upgrade.ps1 in Powershell (e.g. Powershell in Endpoint)
+2. Run the command <b> powershell -ExecutionPolicy Bypass -File "C:\Temp\Win11Upgrade.ps1" </b> to execute the Win11Upgrade.ps1 in Powershell (e.g. Powershell in Endpoint)
 3. Check Win11UpgradeLog.txt for upgrade status
 4. Reboot after Win11UpgradeLog.txt writes "Upgrade script completed. Awaiting user reboot."
 
