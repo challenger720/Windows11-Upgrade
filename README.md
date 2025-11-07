@@ -14,6 +14,6 @@ Important notes:
 
 To force restart when user sign out:
 - Copy restart.xml to C:\Temp (Do not rename the xml)
-- Refer to Force restart when log off - Task register.txt:
+- Refer to Task register - Force restart when log off.ps1:
 -> Run PowerShell command to Register Scheduled task
 -> After the upgrade, remember to run PowerShell command to Unregister Scheduled Task, otherwise computer will restart every time user sign out 
